@@ -1,0 +1,64 @@
+body {
+    
+    
+    height: 100vh; 
+    margin: 0;
+    background-color: #f0f0f0; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8e0452;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+  }
+  
+ 
+  .nav-links a.active {
+    color: #f0a500; /* Change to your preferred color for active state */
+  }
+  .image {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.image img {
+    width: calc(33.33% - 10px); 
+    height: auto; 
+}
+
+  .nav-links a.active {
+    color: #f0a500; 
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  
+  
